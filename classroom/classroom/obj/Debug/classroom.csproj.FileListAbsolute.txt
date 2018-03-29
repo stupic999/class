@@ -1,0 +1,7 @@
+C:\git\classroom\classroom\bin\Debug\classroom.exe.config
+C:\git\classroom\classroom\bin\Debug\classroom.exe
+C:\git\classroom\classroom\bin\Debug\classroom.pdb
+C:\git\classroom\classroom\obj\Debug\classroom.exe
+C:\git\classroom\classroom\obj\Debug\classroom.pdb
+C:\git\classroom\classroom\bin\Debug\classroom.exe.CodeAnalysisLog.xml
+C:\git\classroom\classroom\bin\Debug\classroom.exe.lastcodeanalysissucceeded
