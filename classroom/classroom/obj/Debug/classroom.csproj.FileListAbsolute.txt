@@ -5,3 +5,10 @@ C:\git\classroom\classroom\obj\Debug\classroom.exe
 C:\git\classroom\classroom\obj\Debug\classroom.pdb
 C:\git\classroom\classroom\bin\Debug\classroom.exe.CodeAnalysisLog.xml
 C:\git\classroom\classroom\bin\Debug\classroom.exe.lastcodeanalysissucceeded
+C:\Users\Moucy Cat\Desktop\classroom\classroom\bin\Debug\classroom.exe.config
+C:\Users\Moucy Cat\Desktop\classroom\classroom\bin\Debug\classroom.exe
+C:\Users\Moucy Cat\Desktop\classroom\classroom\bin\Debug\classroom.pdb
+C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.csprojResolveAssemblyReference.cache
+C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.csproj.CoreCompileInputs.cache
+C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.exe
+C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.pdb
