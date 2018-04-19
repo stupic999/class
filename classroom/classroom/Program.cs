@@ -44,6 +44,12 @@ namespace classroom
             // 設全班最高身高
             int max = 0;
 
+            // 設計算男生平均身高的數
+            int genderboyheight = 0;
+
+            // 設計算女生平均身高的數
+            int gendergirlheight = 0;
+
             // 設存放全班身高的陣列
             int[] height = { 173, 0, 179, 155, 183, 170, 163, 174, 165, 189, 177, 180, 154, 167, 170, 173, 165, 158, 180, 165, 153, 175, 162, 165, 0, 160, 165, 173, 164, 177, 177, 180, 170, 151, 176, 180, 168, 152, 666, 2147483647, 165, 155, 777, 173, 169, 170, 169, 171, 0, 170, 150, 160, 155, 164, 163, 165, 184, 165, 155, 0, 168, 160, 169, 0, 150, 163, 168, 173 };
 
@@ -63,30 +69,40 @@ namespace classroom
             for (int i = 0; i < name.Length; i++)
             {
 
-                // 計算最高身高
-                if (height[i] > max)
+                // 計算最高身高，並把錯誤的身高剔除
+                if (height[i] > max && height[i]<200)
                 {
                     max = height[i];
                 }
 
-                // 計算最矮身高
-                if (height[i] < min)
+                // 計算最矮身高，並把錯誤的身高剔除
+                if (height[i] < min && height[i]!=0)
                 {
                     min = height[i];
                 }
 
-                // 計算女生有幾人，把女生身高都加總
-                if (gender[i] == "女")
+                // 計算女生有幾人，把女生身高都加總，並把錯誤的身高剔除
+                if (gender[i] == "女" && height[i] != 0 && height[i] < 200)
                 {
-                    gendergirl++;
+                    gendergirlheight++;
                     heightgirl += height[i];
                 }
 
-                // 計算男生有幾人，把男生身高都加總
+                // 計算男生有幾人，把男生身高都加總，並把錯誤的身高剔除
+                if (gender[i] == "男" && height[i] != 0 && height[i] < 200)
+                {
+                    genderboyheight++;
+                    heightboy += height[i];
+                }
+
                 if (gender[i] == "男")
                 {
                     genderboy++;
-                    heightboy += height[i];
+                }
+
+                if (gender[i] == "女")
+                {
+                    gendergirl++;
                 }
 
                 // 計算O型血人數,並找出星座為天蠍座，血型為O的人
@@ -140,10 +156,10 @@ namespace classroom
             double bloodtypeotherpersent = (double)bloodtypeother / (double)bloodtype.Length * 100;
 
             // 計算女生身高平均
-            double heightgirlpinjun = (double)heightgirl / (double)gendergirl;
+            double heightgirlpinjun = (double)heightgirl / (double)gendergirlheight;
 
             // 計算男生身高平均
-            double heightboypinjun = (double)heightboy / (double)genderboy;
+            double heightboypinjun = (double)heightboy / (double)genderboyheight;
 
             // 計算女生人數平均
             double girlpinjun = (double)gendergirl / (double)gender.Length * 100;
