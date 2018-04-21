@@ -12,3 +12,10 @@ C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.csprojResolve
 C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.csproj.CoreCompileInputs.cache
 C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.exe
 C:\Users\Moucy Cat\Desktop\classroom\classroom\obj\Debug\classroom.pdb
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\bin\Debug\classroom.exe.config
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\bin\Debug\classroom.exe
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\bin\Debug\classroom.pdb
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\obj\Debug\classroom.csprojResolveAssemblyReference.cache
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\obj\Debug\classroom.csproj.CoreCompileInputs.cache
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\obj\Debug\classroom.exe
+C:\Users\Moucy Cat\Desktop\class-master\classroom\classroom\obj\Debug\classroom.pdb
